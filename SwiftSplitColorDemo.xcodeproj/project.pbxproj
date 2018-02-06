@@ -14,6 +14,7 @@
 		3CDAF8E1202A2F11000F4D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDAF8DF202A2F11000F4D47 /* LaunchScreen.storyboard */; };
 		3CDAF8EC202A2F12000F4D47 /* SwiftSplitColorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDAF8EB202A2F12000F4D47 /* SwiftSplitColorDemoTests.swift */; };
 		3CDAF8F7202A2F12000F4D47 /* SwiftSplitColorDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDAF8F6202A2F12000F4D47 /* SwiftSplitColorDemoUITests.swift */; };
+		3CDAF905202A2FB9000F4D47 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3CDAF904202A2FB9000F4D47 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3CDAF8F2202A2F12000F4D47 /* SwiftSplitColorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSplitColorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDAF8F6202A2F12000F4D47 /* SwiftSplitColorDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSplitColorDemoUITests.swift; sourceTree = "<group>"; };
 		3CDAF8F8202A2F12000F4D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDAF904202A2FB9000F4D47 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		3CDAF8D5202A2F11000F4D47 /* SwiftSplitColorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3CDAF904202A2FB9000F4D47 /* README.txt */,
 				3CDAF8D6202A2F11000F4D47 /* AppDelegate.swift */,
 				3CDAF8D8202A2F11000F4D47 /* ViewController.swift */,
 				3CDAF8DA202A2F11000F4D47 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				3CDAF8E1202A2F11000F4D47 /* LaunchScreen.storyboard in Resources */,
 				3CDAF8DE202A2F11000F4D47 /* Assets.xcassets in Resources */,
+				3CDAF905202A2FB9000F4D47 /* README.txt in Resources */,
 				3CDAF8DC202A2F11000F4D47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
