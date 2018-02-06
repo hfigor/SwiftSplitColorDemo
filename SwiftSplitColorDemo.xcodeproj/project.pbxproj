@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CDAF8D7202A2F11000F4D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDAF8D6202A2F11000F4D47 /* AppDelegate.swift */; };
+		3CDAF8D9202A2F11000F4D47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDAF8D8202A2F11000F4D47 /* ViewController.swift */; };
+		3CDAF8DC202A2F11000F4D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDAF8DA202A2F11000F4D47 /* Main.storyboard */; };
+		3CDAF8DE202A2F11000F4D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDAF8DD202A2F11000F4D47 /* Assets.xcassets */; };
+		3CDAF8E1202A2F11000F4D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDAF8DF202A2F11000F4D47 /* LaunchScreen.storyboard */; };
+		3CDAF8EC202A2F12000F4D47 /* SwiftSplitColorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDAF8EB202A2F12000F4D47 /* SwiftSplitColorDemoTests.swift */; };
+		3CDAF8F7202A2F12000F4D47 /* SwiftSplitColorDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDAF8F6202A2F12000F4D47 /* SwiftSplitColorDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CDAF8E8202A2F12000F4D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDAF8CB202A2F11000F4D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDAF8D2202A2F11000F4D47;
+			remoteInfo = SwiftSplitColorDemo;
+		};
+		3CDAF8F3202A2F12000F4D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDAF8CB202A2F11000F4D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDAF8D2202A2F11000F4D47;
+			remoteInfo = SwiftSplitColorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CDAF8D3202A2F11000F4D47 /* SwiftSplitColorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSplitColorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDAF8D6202A2F11000F4D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CDAF8D8202A2F11000F4D47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CDAF8DB202A2F11000F4D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CDAF8DD202A2F11000F4D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CDAF8E0202A2F11000F4D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CDAF8E2202A2F11000F4D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDAF8E7202A2F12000F4D47 /* SwiftSplitColorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSplitColorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDAF8EB202A2F12000F4D47 /* SwiftSplitColorDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSplitColorDemoTests.swift; sourceTree = "<group>"; };
+		3CDAF8ED202A2F12000F4D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDAF8F2202A2F12000F4D47 /* SwiftSplitColorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSplitColorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDAF8F6202A2F12000F4D47 /* SwiftSplitColorDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSplitColorDemoUITests.swift; sourceTree = "<group>"; };
+		3CDAF8F8202A2F12000F4D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CDAF8D0202A2F11000F4D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDAF8E4202A2F12000F4D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDAF8EF202A2F12000F4D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CDAF8CA202A2F11000F4D47 = {
+			isa = PBXGroup;
+			children = (
+				3CDAF8D5202A2F11000F4D47 /* SwiftSplitColorDemo */,
+				3CDAF8EA202A2F12000F4D47 /* SwiftSplitColorDemoTests */,
+				3CDAF8F5202A2F12000F4D47 /* SwiftSplitColorDemoUITests */,
+				3CDAF8D4202A2F11000F4D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CDAF8D4202A2F11000F4D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDAF8D3202A2F11000F4D47 /* SwiftSplitColorDemo.app */,
+				3CDAF8E7202A2F12000F4D47 /* SwiftSplitColorDemoTests.xctest */,
+				3CDAF8F2202A2F12000F4D47 /* SwiftSplitColorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CDAF8D5202A2F11000F4D47 /* SwiftSplitColorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3CDAF8D6202A2F11000F4D47 /* AppDelegate.swift */,
+				3CDAF8D8202A2F11000F4D47 /* ViewController.swift */,
+				3CDAF8DA202A2F11000F4D47 /* Main.storyboard */,
+				3CDAF8DD202A2F11000F4D47 /* Assets.xcassets */,
+				3CDAF8DF202A2F11000F4D47 /* LaunchScreen.storyboard */,
+				3CDAF8E2202A2F11000F4D47 /* Info.plist */,
+			);
+			path = SwiftSplitColorDemo;
+			sourceTree = "<group>";
+		};
+		3CDAF8EA202A2F12000F4D47 /* SwiftSplitColorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDAF8EB202A2F12000F4D47 /* SwiftSplitColorDemoTests.swift */,
+				3CDAF8ED202A2F12000F4D47 /* Info.plist */,
+			);
+			path = SwiftSplitColorDemoTests;
+			sourceTree = "<group>";
+		};
+		3CDAF8F5202A2F12000F4D47 /* SwiftSplitColorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDAF8F6202A2F12000F4D47 /* SwiftSplitColorDemoUITests.swift */,
+				3CDAF8F8202A2F12000F4D47 /* Info.plist */,
+			);
+			path = SwiftSplitColorDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CDAF8D2202A2F11000F4D47 /* SwiftSplitColorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDAF8FB202A2F12000F4D47 /* Build configuration list for PBXNativeTarget "SwiftSplitColorDemo" */;
+			buildPhases = (
+				3CDAF8CF202A2F11000F4D47 /* Sources */,
+				3CDAF8D0202A2F11000F4D47 /* Frameworks */,
+				3CDAF8D1202A2F11000F4D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSplitColorDemo;
+			productName = SwiftSplitColorDemo;
+			productReference = 3CDAF8D3202A2F11000F4D47 /* SwiftSplitColorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CDAF8E6202A2F12000F4D47 /* SwiftSplitColorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDAF8FE202A2F12000F4D47 /* Build configuration list for PBXNativeTarget "SwiftSplitColorDemoTests" */;
+			buildPhases = (
+				3CDAF8E3202A2F12000F4D47 /* Sources */,
+				3CDAF8E4202A2F12000F4D47 /* Frameworks */,
+				3CDAF8E5202A2F12000F4D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDAF8E9202A2F12000F4D47 /* PBXTargetDependency */,
+			);
+			name = SwiftSplitColorDemoTests;
+			productName = SwiftSplitColorDemoTests;
+			productReference = 3CDAF8E7202A2F12000F4D47 /* SwiftSplitColorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CDAF8F1202A2F12000F4D47 /* SwiftSplitColorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDAF901202A2F12000F4D47 /* Build configuration list for PBXNativeTarget "SwiftSplitColorDemoUITests" */;
+			buildPhases = (
+				3CDAF8EE202A2F12000F4D47 /* Sources */,
+				3CDAF8EF202A2F12000F4D47 /* Frameworks */,
+				3CDAF8F0202A2F12000F4D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDAF8F4202A2F12000F4D47 /* PBXTargetDependency */,
+			);
+			name = SwiftSplitColorDemoUITests;
+			productName = SwiftSplitColorDemoUITests;
+			productReference = 3CDAF8F2202A2F12000F4D47 /* SwiftSplitColorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CDAF8CB202A2F11000F4D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Frank Cipolla";
+				TargetAttributes = {
+					3CDAF8D2202A2F11000F4D47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3CDAF8E6202A2F12000F4D47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CDAF8D2202A2F11000F4D47;
+					};
+					3CDAF8F1202A2F12000F4D47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CDAF8D2202A2F11000F4D47;
+					};
+				};
+			};
+			buildConfigurationList = 3CDAF8CE202A2F11000F4D47 /* Build configuration list for PBXProject "SwiftSplitColorDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CDAF8CA202A2F11000F4D47;
+			productRefGroup = 3CDAF8D4202A2F11000F4D47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CDAF8D2202A2F11000F4D47 /* SwiftSplitColorDemo */,
+				3CDAF8E6202A2F12000F4D47 /* SwiftSplitColorDemoTests */,
+				3CDAF8F1202A2F12000F4D47 /* SwiftSplitColorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CDAF8D1202A2F11000F4D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDAF8E1202A2F11000F4D47 /* LaunchScreen.storyboard in Resources */,
+				3CDAF8DE202A2F11000F4D47 /* Assets.xcassets in Resources */,
+				3CDAF8DC202A2F11000F4D47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDAF8E5202A2F12000F4D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDAF8F0202A2F12000F4D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CDAF8CF202A2F11000F4D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDAF8D9202A2F11000F4D47 /* ViewController.swift in Sources */,
+				3CDAF8D7202A2F11000F4D47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDAF8E3202A2F12000F4D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDAF8EC202A2F12000F4D47 /* SwiftSplitColorDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDAF8EE202A2F12000F4D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDAF8F7202A2F12000F4D47 /* SwiftSplitColorDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CDAF8E9202A2F12000F4D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDAF8D2202A2F11000F4D47 /* SwiftSplitColorDemo */;
+			targetProxy = 3CDAF8E8202A2F12000F4D47 /* PBXContainerItemProxy */;
+		};
+		3CDAF8F4202A2F12000F4D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDAF8D2202A2F11000F4D47 /* SwiftSplitColorDemo */;
+			targetProxy = 3CDAF8F3202A2F12000F4D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CDAF8DA202A2F11000F4D47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CDAF8DB202A2F11000F4D47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CDAF8DF202A2F11000F4D47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CDAF8E0202A2F11000F4D47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CDAF8F9202A2F12000F4D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CDAF8FA202A2F12000F4D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CDAF8FC202A2F12000F4D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				INFOPLIST_FILE = SwiftSplitColorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandylion.SwiftSplitColorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CDAF8FD202A2F12000F4D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				INFOPLIST_FILE = SwiftSplitColorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandylion.SwiftSplitColorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CDAF8FF202A2F12000F4D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				INFOPLIST_FILE = SwiftSplitColorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandylion.SwiftSplitColorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSplitColorDemo.app/SwiftSplitColorDemo";
+			};
+			name = Debug;
+		};
+		3CDAF900202A2F12000F4D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				INFOPLIST_FILE = SwiftSplitColorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandylion.SwiftSplitColorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSplitColorDemo.app/SwiftSplitColorDemo";
+			};
+			name = Release;
+		};
+		3CDAF902202A2F12000F4D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				INFOPLIST_FILE = SwiftSplitColorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandylion.SwiftSplitColorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftSplitColorDemo;
+			};
+			name = Debug;
+		};
+		3CDAF903202A2F12000F4D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N24V4NH8BJ;
+				INFOPLIST_FILE = SwiftSplitColorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandylion.SwiftSplitColorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftSplitColorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CDAF8CE202A2F11000F4D47 /* Build configuration list for PBXProject "SwiftSplitColorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDAF8F9202A2F12000F4D47 /* Debug */,
+				3CDAF8FA202A2F12000F4D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDAF8FB202A2F12000F4D47 /* Build configuration list for PBXNativeTarget "SwiftSplitColorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDAF8FC202A2F12000F4D47 /* Debug */,
+				3CDAF8FD202A2F12000F4D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDAF8FE202A2F12000F4D47 /* Build configuration list for PBXNativeTarget "SwiftSplitColorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDAF8FF202A2F12000F4D47 /* Debug */,
+				3CDAF900202A2F12000F4D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDAF901202A2F12000F4D47 /* Build configuration list for PBXNativeTarget "SwiftSplitColorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDAF902202A2F12000F4D47 /* Debug */,
+				3CDAF903202A2F12000F4D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CDAF8CB202A2F11000F4D47 /* Project object */;
+}
